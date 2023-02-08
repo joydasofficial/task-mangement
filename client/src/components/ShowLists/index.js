@@ -55,7 +55,7 @@ const ShowLists = () => {
         return (
           <div className={styles.listCard} key={index}>
             <div className={styles.listHeader}>
-              <h1>{e.listname}</h1>
+              <h3>{e.listname}</h3>
               <button className={styles.headerButton} onClick={()=>handleExport(index)}>Export</button>
             </div>
 

@@ -30,7 +30,6 @@ export default function Home() {
       });
     }
     setShow(show + 1);
-    console.log(Lists);
   };
 
   return (
