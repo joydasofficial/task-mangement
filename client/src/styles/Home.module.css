@@ -1,0 +1,72 @@
+.main{
+  display: flex;
+}
+
+.mainContainer{
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: teal;
+  position: fixed;
+}
+
+.innerContainer{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.innerContainer > input,
+.innerContainer > textarea{
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+}
+
+.innerContainer > textarea{
+  padding: 15px;
+  height: 35vh;
+}
+
+.innerContainer > h1{
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button{
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 5px 0;
+  border: 2px solid tomato;
+  background: tomato;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover{
+  background: wheat;
+  color: tomato;
+  border: 2px solid tomato;
+}
+
+.listContainer{
+  width: 70%;
+  min-height: 100vh;
+  padding: 15px;
+  background: tomato;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  position: relative;
+  left: 30%;
+}

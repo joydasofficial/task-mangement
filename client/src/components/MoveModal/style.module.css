@@ -1,0 +1,31 @@
+/* .modal{
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  background: white;
+  border-radius: 20px;
+} */
+
+.selectList{
+  width: 100%;
+  display: block;
+  margin: 5px 0;
+  padding: 3px;
+  outline: none;
+  border-radius: 20px;
+  background: white;
+}
+
+
+.button{
+  padding: 3px 8px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: teal;
+  color: white;
+  margin-top: 3px;
+}
